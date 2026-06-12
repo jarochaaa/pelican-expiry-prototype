@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/pelican-expiry-prototype/sw.js', { scope: '/pelican-expiry-prototype/' })})}
